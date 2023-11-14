@@ -1,4 +1,4 @@
-#Welcome to my personal site
+# Welcome to my personal site
 
 Made by your truly, using React JS with NextJS starter code, styled with TailwindCSS
 
