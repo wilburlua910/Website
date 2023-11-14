@@ -1,5 +1,6 @@
 import React from "react";
-import RoundButton from "./Button";
+import RoundButton from "./RoundButton";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -12,7 +13,17 @@ const Hero = () => {
           <p className="text-3xl mb-5">Software Engineer | DevSecOps</p>
 
           <RoundButton text="Resume"></RoundButton>
+          <RoundButton text="Contact Me"></RoundButton>
         </div>
+      </div>
+
+      <div className="container flex items-center justify-center">
+        <Image
+          src={"/assets/profile.png"}
+          width={400}
+          height={400}
+          alt="Profile Pic"
+        ></Image>
       </div>
     </div>
   );
