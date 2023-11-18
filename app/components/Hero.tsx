@@ -1,6 +1,7 @@
 import React from "react";
 import RoundButton from "./RoundButton";
 import Image from "next/image";
+import CustomIcons from "./CustomIcons";
 
 const Hero = () => {
   return (
@@ -11,9 +12,9 @@ const Hero = () => {
 
         <div className="container mt-5">
           <p className="text-3xl mb-5">Software Engineer | DevSecOps</p>
-
           <RoundButton text="Resume"></RoundButton>
           <RoundButton text="Contact Me"></RoundButton>
+          <CustomIcons />
         </div>
       </div>
 

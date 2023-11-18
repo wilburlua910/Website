@@ -3,6 +3,9 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import { Poppins } from "next/font/google";
 import NewSectionText from "./components/NewSectionText";
+import CustomIcons from "./components/CustomIcons";
+import About from "./about";
+import Experience from "./Experience";
 const Home = () => {
   return (
     <div>
@@ -10,9 +13,12 @@ const Home = () => {
       <Hero></Hero>
 
       <NewSectionText text={"About Me"}></NewSectionText>
+      <About></About>
 
-      {/* <div className="h-96 w-96 rounded-full bg-blue-400"></div>
-      <div className="h-96 w-96 rounded-full bg-blue-400"></div> */}
+      <NewSectionText text={"Check out my Experiences!"}></NewSectionText>
+      <Experience />
+
+      
     </div>
   );
 };
