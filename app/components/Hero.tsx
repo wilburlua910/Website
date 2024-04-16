@@ -5,7 +5,7 @@ import CustomIcons from "./CustomIcons";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto mt-10 flex">
+    <div className="container mx-auto flex">
       <div className="container">
         <p className="text-8xl font-bold mt-5">Hi, I am</p>
         <p className="text-8xl font-bold mt-5">Wilbur Lua</p>
