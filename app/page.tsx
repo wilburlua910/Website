@@ -35,7 +35,7 @@ const Home = () => {
         <div className="flex-1 bg-slate-900" id="HomePage">
           {/*Split to 2 rows that takes 50% each of remaining space*/}
           <Hero></Hero>
-          <NewSectionText text={"Experience & Tech Stack"}></NewSectionText>
+          <Experience></Experience>
 
           {/* <div className="flex flex-row">
         <div className="container m-20">

@@ -5,7 +5,7 @@ import CustomIcons from "./CustomIcons";
 
 const Hero = () => {
   return (
-    <div className="flex m-20">
+    <div className="flex ml-10 mr-10 h-screen">
       <div className="w-1/2 flex flex-col justify-center">
         <h1 className="text-9xl font-bold mt-5 text-white">Hey, I am</h1>
         <h1 className="text-9xl font-bold mt-5 bg-gradient-to-r from-blue-500 via-blue-300 to-teal-200 text-transparent bg-clip-text">
