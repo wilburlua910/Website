@@ -5,6 +5,12 @@ import { Poppins } from "next/font/google";
 import NewSectionText from "./components/NewSectionText";
 import CustomIcons from "./components/CustomIcons";
 import About from "./About";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import "@fortawesome/fontawesome-svg-core/styles.css"; // Import the FontAwesome CSS
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+library.add(fas);
 
 import Experience from "./Experience";
 const Home = () => {
@@ -15,6 +21,7 @@ const Home = () => {
           <ul>
             <li className="flex justify-center text-white pt-10 pb-10">
               <h2 className="text-3xl">WL.</h2>
+              <FontAwesomeIcon icon="coffee" />
             </li>
             <li className="flex justify-center text-white">About Me</li>
             <li className="flex justify-center text-white">Experience</li>
